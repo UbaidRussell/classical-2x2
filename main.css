@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-color: #04090A;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.main-container img{
+    margin-bottom: 20px;
+    object-fit: cover;
+}
